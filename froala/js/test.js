@@ -1,1 +1,1 @@
-let handleClick = () => alert("clicked");
+window.handleClick = () => alert("clicked");

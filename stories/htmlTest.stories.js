@@ -1,4 +1,5 @@
 import "../froala/js/test.js";
+import "../froala/css/test.css";
 // import { createTestButton } from "./htmlTest.js";
 import test from "../froala/html/test.html";
 
@@ -13,6 +14,24 @@ export default {
 };
 
 export const TestButton = () => test;
+
+// export const TestButton = () => {
+//   const parser = new DOMParser();
+//   const doc = parser.parseFromString(test, "text/html");
+
+//   // Find the button with id 'testButton' in the parsed HTML and add the click event listener
+//   const button = doc.querySelector("#testButton");
+//   button.addEventListener("click", (e) => {
+//     console.log("clicked");
+//     e.preventDefault();
+
+//     // window.handleClick();
+
+//     //   button.classList.toggle("red");
+//   });
+
+//   return doc.body.outerHTML;
+// };
 
 // export const TestButton = () => {
 //   // Create a DOM parser to parse the HTML string
