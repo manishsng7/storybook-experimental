@@ -1,4 +1,5 @@
 import { createButton } from "./Button";
+import { handleClick } from "../utils/index.js";
 
 // More on how to set up stories at: https://storybook.js.org/docs/writing-stories
 export default {
@@ -26,6 +27,7 @@ export const Primary = {
   args: {
     primary: true,
     label: "Button",
+    onClick: handleClick,
   },
 };
 

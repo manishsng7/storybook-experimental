@@ -1,0 +1,1 @@
+let handleClick = () => alert("clicked");
