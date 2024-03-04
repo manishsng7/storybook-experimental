@@ -1,7 +1,7 @@
-import "../froala/js/test.js";
-import "../froala/css/test.css";
+import "../froalaExp/js/test.js";
+import "../froalaExp/css/test.css";
 // import { createTestButton } from "./htmlTest.js";
-import test from "../froala/html/test.html";
+import test from "../froalaExp/html/test.html";
 
 export default {
   title: "Example / TestButton",

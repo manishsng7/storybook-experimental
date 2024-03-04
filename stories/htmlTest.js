@@ -1,5 +1,5 @@
 import "./button.css";
-import test from "../froala/html/test.html";
+import test from "../froalaExp/html/test.html";
 
 export const createTestButton = ({}) => {
   const parser = new DOMParser();

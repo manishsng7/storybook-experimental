@@ -1,0 +1,25 @@
+x<!-- <link rel="stylesheet" href="../css/test.css" /> -->
+<button id="testButton">Button</button>
+<script>
+  document.getElementById("testButton").addEventListener("click", function () {
+    console.log("reached here");
+    // this handle click is accesible now.
+    handleClick();
+  });
+</script>
+
+<script type="text/javascript" src="../js/test2.js"></script>
+
+<script type="text/javascript" src="../js/test3.js"></script>
+<script type="text/javascript" src="../js/test4.js"></script>
+<script type="module">
+
+  sayHello();
+</script>
+
+<!-- In webpack environment: each js files have their own scope. and are not able to access the code mentioned in each others js files, until the function is explicitly mention in window -->
+
+<!-- In HTML CSS  JS environment when a file is included as script tag every function is present in global scope and is accessible in the other linked js file.  -->
+
+<!-- <script></script> -->
+<!-- <script type="text/javascript" src="../js/test.js"></script> -->
